@@ -3,6 +3,7 @@ package com.hmdroid.kaizucalc;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 public class select extends AppCompatActivity {
@@ -11,6 +12,8 @@ public class select extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select);
+        Toolbar toolbar = findViewById(R.id.toolbar3);
+        toolbar.setTitle("KaizuCalc");
     }
     public void kaizukayen(View view){
         Intent intent = new Intent(this,MainActivity.class);
