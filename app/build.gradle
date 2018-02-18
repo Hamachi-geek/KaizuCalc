@@ -6,8 +6,8 @@ android {
         applicationId "com.hmdroid.kaizucalc"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 1
-        versionName '1.0'
+        versionCode 6
+        versionName '1.4'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

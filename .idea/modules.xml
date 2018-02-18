@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KaizuCalc-master.iml" filepath="$PROJECT_DIR$/KaizuCalc-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KaizuCalc.iml" filepath="$PROJECT_DIR$/KaizuCalc.iml" />
+      <module fileurl="file://C:\Users\daich\Documents\KaizuCalc\KaizuCalc-master.iml" filepath="C:\Users\daich\Documents\KaizuCalc\KaizuCalc-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instantapp/instantapp.iml" filepath="$PROJECT_DIR$/instantapp/instantapp.iml" />
     </modules>
   </component>
 </project>

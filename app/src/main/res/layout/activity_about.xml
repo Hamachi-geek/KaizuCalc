@@ -44,8 +44,6 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2"
         android:layout_below="@+id/textView5"
         android:layout_marginTop="12dp"
         android:paddingLeft="10dp"
@@ -127,16 +125,6 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingTop="15dp"
-        android:text="@string/about_this_app"
-        android:textColor="@android:color/black"
-        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView16"
