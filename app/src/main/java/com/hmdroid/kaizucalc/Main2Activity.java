@@ -1,5 +1,6 @@
 package com.hmdroid.kaizucalc;
 
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,7 +29,7 @@ EditText kaizuka;
     public void japan(View view) {
         kaizuka = findViewById(R.id.kaizuka);
         if(kaizuka.getText().toString().equals("")){
-            Toast.makeText(this,"何か入力するだで。",Toast.LENGTH_SHORT);
+            Snackbar.make(view,"何か入力するだで",Snackbar.LENGTH_SHORT).show();
         }else {
             BigDecimal k = new
                     BigDecimal(kaizuka.getText().toString());

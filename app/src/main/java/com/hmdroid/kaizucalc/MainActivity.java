@@ -1,5 +1,6 @@
 package com.hmdroid.kaizucalc;
 
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void kaizuka(View view) {
         jpy = findViewById(R.id.jpy);
         if(jpy.getText().toString().equals("")){
-            Toast.makeText(this,"何か入力するだで。",Toast.LENGTH_SHORT);
+            Snackbar.make(view, "何か入力するだで", Snackbar.LENGTH_SHORT).show();
         }else {
             BigInteger j = new BigInteger(jpy.getText().toString());
             BigInteger big3 = new BigInteger("35");
