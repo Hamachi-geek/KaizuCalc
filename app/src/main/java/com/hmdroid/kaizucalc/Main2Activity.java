@@ -1,14 +1,11 @@
 package com.hmdroid.kaizucalc;
 
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
 
 import java.math.BigDecimal;
 
@@ -21,15 +18,12 @@ EditText kaizuka;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        Toolbar toolbar=findViewById(R.id.toolbar2);
-        toolbar.setTitle("貝塚円から日本円");
-        setSupportActionBar(toolbar);
     }
 
     public void japan(View view) {
         kaizuka = findViewById(R.id.kaizuka);
         if(kaizuka.getText().toString().equals("")){
-            Snackbar.make(view,"何か入力するだで",Snackbar.LENGTH_SHORT).show();
+            Toast.makeText(this,"何か入力するだで。",Toast.LENGTH_SHORT);
         }else {
             BigDecimal k = new
                     BigDecimal(kaizuka.getText().toString());
