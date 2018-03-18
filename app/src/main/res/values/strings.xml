@@ -17,4 +17,8 @@
 
     <string name="yen2kaizu">日本円から貝塚円</string>
     <string name="kaizu2yen">貝塚円から日本円</string>
+
+    <string name="licences">ライセンス</string>
+    <string name="AndroidAssetStudio">Android Asset Studio</string>
+    <string name="RomanNurik">By Roman Nurik</string>
 </resources>
