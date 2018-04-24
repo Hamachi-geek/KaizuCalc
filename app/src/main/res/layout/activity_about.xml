@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.hmdroid.kaizucalc.about">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
@@ -115,17 +126,6 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
-
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
@@ -144,7 +144,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView16"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="10dp"
         android:text="@string/licences"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -156,6 +157,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView2"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
         android:text="@string/AndroidAssetStudio"
         android:textStyle="bold" />
 
@@ -166,6 +169,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView11"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
         android:text="@string/RomanNurik" />
 
 </RelativeLayout>

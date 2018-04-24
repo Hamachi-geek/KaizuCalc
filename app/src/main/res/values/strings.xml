@@ -21,4 +21,6 @@
     <string name="licences">ライセンス</string>
     <string name="AndroidAssetStudio">Android Asset Studio</string>
     <string name="RomanNurik">By Roman Nurik</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>
