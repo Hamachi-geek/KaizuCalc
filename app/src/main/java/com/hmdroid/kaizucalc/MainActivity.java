@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         if(jpy.getText().toString().equals("")){
             Snackbar.make(view, "何か入力するだで", Snackbar.LENGTH_SHORT).show();
         }else {
+            //35を割り算(整数が計算結果になるためBigInteger)
             BigInteger j = new BigInteger(jpy.getText().toString());
             BigInteger big3 = new BigInteger("35");
             double k = j.multiply(big3).doubleValue();
