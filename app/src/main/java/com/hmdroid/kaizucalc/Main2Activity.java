@@ -24,10 +24,11 @@ public class Main2Activity extends AppCompatActivity {
     public void japan(View view) {
         kaizuka = findViewById(R.id.kaizuka);
         if (kaizuka.getText().toString().equals("")) {
-            Toast.makeText(this, "何か入力するだで", Toast.LENGTH_SHORT);
+            Snackbar.make(view, "何か入力するだで", Snackbar.LENGTH_SHORT).show();
         } else {
             BigDecimal k = new
                     BigDecimal(kaizuka.getText().toString());
+            //35を掛け算(少数が計算結果になることがあるためBigDecimal)
             BigDecimal big3 = new BigDecimal("35");
             double j = k.divide(big3, 3, ROUND_HALF_UP).doubleValue();
 
@@ -38,4 +39,3 @@ public class Main2Activity extends AppCompatActivity {
         }
     }
 }
-
