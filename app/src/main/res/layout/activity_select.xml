@@ -4,48 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hmdroid.kaizucalc.select">
+    tools:context="com.hmdroid.kaizucalc.SelectActivity">
 
-    <Button
-        android:id="@+id/button2"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="23dp"
-        android:onClick="kaizukayen"
-        android:text="@string/yen2kaizu" />
+        android:layout_height="match_parent"
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:layout_marginBottom="23dp"
-        android:onClick="nihonyen"
-        android:text="@string/kaizu2yen" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:onClick="about"
-        android:text="@string/about_this_app" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
+            android:layout_margin="15dp"
+            android:layout_marginBottom="23dp"
+            android:layout_weight="1"
+            android:background="@drawable/my_custom_button"
+            android:onClick="toKaizuka"
+            android:text="日本円→貝塚円" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="15dp"
+            android:layout_marginBottom="23dp"
+            android:layout_weight="1"
+            android:background="@drawable/my_custom_button"
+            android:onClick="toYen"
+            android:text="貝塚円→日本円" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/my_custom_button"
+            android:onClick="about"
+            android:text="About" />
+
+    </LinearLayout>
+
 
 </RelativeLayout>

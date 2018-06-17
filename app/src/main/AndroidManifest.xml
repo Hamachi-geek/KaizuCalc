@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".select"
+            android:name=".SelectActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,13 +21,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ToKaizukaActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Main2Activity"
+            android:name=".ToYenActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".about"
+            android:name=".AboutActivity"
             android:screenOrientation="portrait" />
 
     </application>
