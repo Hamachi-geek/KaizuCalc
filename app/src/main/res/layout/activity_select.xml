@@ -46,7 +46,7 @@
             android:layout_weight="1"
             android:background="@drawable/my_custom_button"
             android:onClick="about"
-            android:text="About" />
+            android:text="このアプリについて" />
 
     </LinearLayout>
 
