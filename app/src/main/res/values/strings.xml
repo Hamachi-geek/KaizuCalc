@@ -11,12 +11,14 @@
     <string name="youtube">https://youtu.be/Iag55pIKWzI</string>
     <string name="youtube_title">[神動画]syamu _game オフ会 [完全版]</string>
 
-    <string name="kaizuka">1貝塚円=35日本円</string>
-    <string name="japan">35日本円＝1貝塚円</string>
+    <string name="toKaizuka">1貝塚円 = 35日本円</string>
+    <string name="toYen">35日本円 ＝ 1貝塚円</string>
     <string name="calc">計算する</string>
 
     <string name="yen2kaizu">日本円から貝塚円</string>
     <string name="kaizu2yen">貝塚円から日本円</string>
+
+    <string name="AppUrl">https://goo.gl/aGsSY8</string>
 
     <string name="licences">ライセンス</string>
     <string name="AndroidAssetStudio">Android Asset Studio</string>
