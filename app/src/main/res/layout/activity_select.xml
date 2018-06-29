@@ -21,9 +21,10 @@
             android:layout_margin="15dp"
             android:layout_marginBottom="23dp"
             android:layout_weight="1"
-            android:background="@drawable/my_custom_button"
+            android:background="@drawable/background"
             android:onClick="toKaizuka"
-            android:text="日本円→貝塚円" />
+            android:text="日本円→貝塚円"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button3"
@@ -33,9 +34,10 @@
             android:layout_margin="15dp"
             android:layout_marginBottom="23dp"
             android:layout_weight="1"
-            android:background="@drawable/my_custom_button"
+            android:background="@drawable/background"
             android:onClick="toYen"
-            android:text="貝塚円→日本円" />
+            android:text="貝塚円→日本円"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button4"
@@ -44,9 +46,10 @@
 
             android:layout_margin="15dp"
             android:layout_weight="1"
-            android:background="@drawable/my_custom_button"
+            android:background="@drawable/background"
             android:onClick="about"
-            android:text="このアプリについて" />
+            android:text="このアプリについて"
+            android:textSize="24sp" />
 
     </LinearLayout>
 

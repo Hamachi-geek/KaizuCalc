@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    android:background="@drawable/my_custom_button"
     tools:context="com.hmdroid.kaizucalc.ToKaizukaActivity">
 
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-     android:layout_margin="5dp"
+        android:layout_height="40dp"
         android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/background"
         android:ems="10"
         android:hint="@string/toKaizuka"
         android:inputType="numberSigned"
