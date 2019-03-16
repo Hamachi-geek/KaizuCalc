@@ -91,30 +91,14 @@
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/textView11"
+                <Button
+                    android:id="@+id/button9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/textView2"
-                    android:layout_marginTop="5dp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:text="@string/AndroidAssetStudio"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:autoLink="web"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingTop="5dp"
-                    android:text="@string/AndroidAssetStudio_URL"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background"
+                    android:onClick="android_asset_studio"
+                    android:text="@string/AndroidAssetStudio" />
 
                 <TextView
                     android:id="@+id/textView12"
@@ -127,29 +111,14 @@
                     android:paddingTop="5dp"
                     android:text="@string/RomanNurik" />
 
-                <TextView
-                    android:id="@+id/textView4"
+                <Button
+                    android:id="@+id/button10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginTop="5dp"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:text="GitHub Repository"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView18"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:autoLink="web"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingTop="5dp"
-                    android:text="@string/githubUrl"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/background"
+                    android:onClick="github"
+                    android:text="@string/GitHub" />
 
                 <TextView
                     android:id="@+id/textView14"

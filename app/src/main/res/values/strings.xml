@@ -22,5 +22,5 @@
     <string name="licences">ライセンス</string>
     <string name="AndroidAssetStudio">Android Asset Studio</string>
     <string name="RomanNurik">By Roman Nurik</string>
-    <string name="AndroidAssetStudio_URL">http://romannurik.github.io/AndroidAssetStudio/icons-launcher.html</string>
+    <string name="GitHub">GitHub Repository</string>
 </resources>

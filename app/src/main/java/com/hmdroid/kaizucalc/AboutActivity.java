@@ -35,4 +35,12 @@ public class AboutActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/syamudesuyo"));
         startActivity(intent);
     }
+    public void android_asset_studio (View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://romannurik.github.io/AndroidAssetStudio/icons-launcher.html"));
+        startActivity(intent);
+    }
+    public void github (View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/HamaDroid/KaizuCalc/"));
+        startActivity(intent);
+    }
 }
