@@ -6,13 +6,12 @@
     <string name="why_did_i_made">暇だしネタアプリ作ってもいいかなーってので作りました。</string>
     <string name="open_source">オープンソースなので犯罪ほう助などの公序良俗に反するような内容でなければ自由に改変してもらって大丈夫です。</string>
     <string name="links">リンク集</string>
-    <string name="link1">https://www63.atwiki.jp/syamugame/</string>
     <string name="atwiki">Syamu_game @ ウィキ</string>
-    <string name="youtube">https://youtu.be/Iag55pIKWzI</string>
-    <string name="youtube_title">[神動画]syamu _game オフ会 [完全版]</string>
-
-    <string name="toKaizuka">1貝塚円 = 35日本円</string>
-    <string name="toYen">35日本円 ＝ 1貝塚円</string>
+    <string name="youtube_off_zero">[神動画]syamu _game オフ会 [完全版]</string>
+    <string name="syamu_new_chanel">Syamu(Youtube)</string>
+    <string name="syamu_new_twitter">Syamu(Twitter)</string>
+    <string name="toKaizuka">35日本円 ＝ 1貝塚円</string>
+    <string name="toYen">1貝塚円 ＝ 35日本円</string>
     <string name="calc">計算する</string>
 
     <string name="yen2kaizu">日本円から貝塚円</string>
