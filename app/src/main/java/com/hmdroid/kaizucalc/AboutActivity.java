@@ -32,7 +32,7 @@ public class AboutActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void syamu_twitter (View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/syamudesuyo"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/syamu_net"));
         startActivity(intent);
     }
     public void android_asset_studio (View view){
