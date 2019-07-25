@@ -23,7 +23,7 @@
             android:layout_weight="1"
             android:background="@drawable/background"
             android:onClick="toKaizuka"
-            android:text="日本円→貝塚円"
+            android:text="@string/yen2kaizuka"
             android:textSize="24sp" />
 
         <Button
@@ -36,7 +36,7 @@
             android:layout_weight="1"
             android:background="@drawable/background"
             android:onClick="toYen"
-            android:text="貝塚円→日本円"
+            android:text="@string/kaizuka2yen"
             android:textSize="24sp" />
 
         <Button
@@ -48,7 +48,7 @@
             android:layout_weight="1"
             android:background="@drawable/background"
             android:onClick="about"
-            android:text="このアプリについて"
+            android:text="@string/link"
             android:textSize="24sp" />
 
     </LinearLayout>

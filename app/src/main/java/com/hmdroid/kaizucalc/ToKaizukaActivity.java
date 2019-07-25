@@ -22,7 +22,11 @@ public class ToKaizukaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_to_kaizuka);
 
-
+        //ToolBar
+        Toolbar toolbar=findViewById(R.id.toolbar);
+        toolbar.setTitle (R.string.yen2kaizuka);
+        setSupportActionBar(toolbar);
+        //EditText
         editText = findViewById(R.id.editText);
         editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
 

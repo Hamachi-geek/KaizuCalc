@@ -4,6 +4,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
@@ -21,6 +22,12 @@ public class ToYenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_to_yen);
 
+        //ToolBar
+        Toolbar toolbar=findViewById(R.id.toolbar2);
+        toolbar.setTitle (R.string.kaizuka2yen);
+        setSupportActionBar(toolbar);
+
+        //EditText
         editText = findViewById(R.id.editText);
         editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
 

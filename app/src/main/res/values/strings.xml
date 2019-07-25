@@ -1,21 +1,17 @@
 <resources>
     <string name="app_name">KaizuCalc</string>
 
-    <string name="about_this_app">このアプリについて</string>
-    <string name="this_app_is">このアプリは貝塚円に関する計算をする電卓アプリだで。</string>
-    <string name="why_did_i_made">暇だしネタアプリ作ってもいいかなーってので作りました。</string>
-    <string name="open_source">オープンソースなので犯罪ほう助などの公序良俗に反するような内容でなければ自由に改変してもらって大丈夫です。</string>
-    <string name="links">リンク集</string>
+    <string name="link">リンク集</string>
     <string name="atwiki">Syamu_game @ ウィキ</string>
     <string name="youtube_off_zero">[神動画]syamu _game オフ会 [完全版]</string>
     <string name="syamu_new_chanel">Syamu(Youtube)</string>
     <string name="syamu_new_twitter">Syamu(Twitter)</string>
-    <string name="toKaizuka">35日本円 ＝ 1貝塚円</string>
-    <string name="toYen">1貝塚円 ＝ 35日本円</string>
-    <string name="calc">計算する</string>
 
-    <string name="yen2kaizu">日本円から貝塚円</string>
-    <string name="kaizu2yen">貝塚円から日本円</string>
+    <string name="toYen">1貝塚円 ＝ 35日本円</string>
+    <string name="toKaizuka">35日本円 ＝ 1貝塚円</string>
+
+    <string name="yen2kaizuka">日本円から貝塚円</string>
+    <string name="kaizuka2yen">貝塚円から日本円</string>
 
     <string name="githubUrl">https://github.com/HamaDroid/KaizuCalc/</string>
 
@@ -23,4 +19,7 @@
     <string name="AndroidAssetStudio">Android Asset Studio</string>
     <string name="RomanNurik">By Roman Nurik</string>
     <string name="GitHub">GitHub Repository</string>
+
+    <string name="cant_start">アプリを開始できませんでした。ごめんよ、ごめんやで。</string>
+
 </resources>

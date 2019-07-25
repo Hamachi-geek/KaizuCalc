@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_ToJPY"
+        android:enabled="true"
+        android:icon="@drawable/ic_japan"
+        android:shortcutShortLabel="@string/yen2kaizuka"
+        android:shortcutLongLabel="@string/yen2kaizuka"
+        android:shortcutDisabledMessage="@string/cant_start">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hmdroid.kaizucalc"
+            android:targetClass="com.hmdroid.kaizucalc.ToYenActivity" />
+
+        <categories android:name="android.shortcut.conversation" />
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcut_ToKaizuka"
+        android:enabled="true"
+        android:icon="@drawable/ic_kaizuka"
+        android:shortcutShortLabel="@string/kaizuka2yen"
+        android:shortcutLongLabel="@string/kaizuka2yen"
+        android:shortcutDisabledMessage="@string/cant_start">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hmdroid.kaizucalc"
+            android:targetClass="com.hmdroid.kaizucalc.ToKaizukaActivity" />
+
+        <categories android:name="android.shortcut.conversation" />
+
+    </shortcut>
+
+</shortcuts>
