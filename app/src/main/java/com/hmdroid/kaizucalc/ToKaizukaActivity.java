@@ -24,7 +24,7 @@ public class ToKaizukaActivity extends AppCompatActivity {
 
         //ToolBar
         Toolbar toolbar=findViewById(R.id.toolbar);
-        toolbar.setTitle (R.string.yen2kaizuka);
+        toolbar.setTitle (R.string.convert_kaizuka);
         setSupportActionBar(toolbar);
         //EditText
         editText = findViewById(R.id.editText);

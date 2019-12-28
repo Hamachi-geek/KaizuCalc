@@ -23,7 +23,7 @@
             android:layout_weight="1"
             android:background="@drawable/background"
             android:onClick="toKaizuka"
-            android:text="@string/yen2kaizuka"
+            android:text="@string/convert_kaizuka"
             android:textSize="24sp" />
 
         <Button
@@ -36,7 +36,7 @@
             android:layout_weight="1"
             android:background="@drawable/background"
             android:onClick="toYen"
-            android:text="@string/kaizuka2yen"
+            android:text="@string/convert_yen"
             android:textSize="24sp" />
 
         <Button

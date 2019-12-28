@@ -24,7 +24,7 @@ public class ToYenActivity extends AppCompatActivity {
 
         //ToolBar
         Toolbar toolbar=findViewById(R.id.toolbar2);
-        toolbar.setTitle (R.string.kaizuka2yen);
+        toolbar.setTitle (R.string.convert_yen);
         setSupportActionBar(toolbar);
 
         //EditText

@@ -3,15 +3,15 @@
     <shortcut
         android:shortcutId="shortcut_ToJPY"
         android:enabled="true"
-        android:icon="@drawable/ic_japan"
-        android:shortcutShortLabel="@string/yen2kaizuka"
-        android:shortcutLongLabel="@string/yen2kaizuka"
+        android:icon="@drawable/ic_kaizuka"
+        android:shortcutShortLabel="@string/convert_kaizuka"
+        android:shortcutLongLabel="@string/convert_kaizuka"
         android:shortcutDisabledMessage="@string/cant_start">
 
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.hmdroid.kaizucalc"
-            android:targetClass="com.hmdroid.kaizucalc.ToYenActivity" />
+            android:targetClass="com.hmdroid.kaizucalc.ToKaizukaActivity" />
 
         <categories android:name="android.shortcut.conversation" />
 
@@ -20,15 +20,15 @@
     <shortcut
         android:shortcutId="shortcut_ToKaizuka"
         android:enabled="true"
-        android:icon="@drawable/ic_kaizuka"
-        android:shortcutShortLabel="@string/kaizuka2yen"
-        android:shortcutLongLabel="@string/kaizuka2yen"
+        android:icon="@drawable/ic_japan"
+        android:shortcutShortLabel="@string/convert_yen"
+        android:shortcutLongLabel="@string/convert_yen"
         android:shortcutDisabledMessage="@string/cant_start">
 
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="com.hmdroid.kaizucalc"
-            android:targetClass="com.hmdroid.kaizucalc.ToKaizukaActivity" />
+            android:targetClass="com.hmdroid.kaizucalc.ToYenActivity" />
 
         <categories android:name="android.shortcut.conversation" />
 

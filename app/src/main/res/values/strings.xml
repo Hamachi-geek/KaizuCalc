@@ -7,8 +7,8 @@
     <string name="syamu_new_chanel">Syamu(Youtube)</string>
     <string name="syamu_new_twitter">Syamu(Twitter)</string>
 
-    <string name="toYen">1貝塚円 ＝ 35日本円</string>
-    <string name="toKaizuka">35日本円 ＝ 1貝塚円</string>
+    <string name="toKaizuka">1貝塚円 ＝ 35日本円</string>
+    <string name="toYen">35日本円 ＝ 1貝塚円</string>
 
     <string name="yen2kaizuka">日本円から貝塚円</string>
     <string name="kaizuka2yen">貝塚円から日本円</string>
@@ -20,6 +20,9 @@
     <string name="RomanNurik">By Roman Nurik</string>
     <string name="GitHub">GitHub Repository</string>
 
-    <string name="cant_start">アプリを開始できませんでした。ごめんよ、ごめんやで。</string>
+    <string name="convert_kaizuka">貝塚円に変換</string>
+    <string name="convert_yen">日本円に変換</string>
+
+    <string name="cant_start">アプリを開始できませんでした。ごめんやで。</string>
 
 </resources>
