@@ -12,16 +12,18 @@
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="@color/colorBackground"
         android:elevation="4dp"
         android:minHeight="64dp"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:titleTextColor="@color/colorText" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:foreground="?android:windowContentOverlay"
-        android:layout_below="@+id/toolbar2"/>
+        android:layout_below="@+id/toolbar2"
+        android:background="@color/colorBackground"
+        android:foreground="?android:windowContentOverlay" />
 
     <EditText
         android:id="@+id/editText"
@@ -35,7 +37,8 @@
         android:ems="10"
         android:hint="@string/toYen"
         android:inputType="numberSigned"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColorHint="@color/colorHint" />
 
 </RelativeLayout>
 

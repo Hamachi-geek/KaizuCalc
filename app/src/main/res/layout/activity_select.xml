@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     tools:context="com.hmdroid.kaizucalc.SelectActivity">
 
     <LinearLayout
@@ -24,6 +25,7 @@
             android:background="@drawable/background"
             android:onClick="toKaizuka"
             android:text="@string/convert_kaizuka"
+            android:textColor="@color/colorText"
             android:textSize="24sp" />
 
         <Button
@@ -37,6 +39,7 @@
             android:background="@drawable/background"
             android:onClick="toYen"
             android:text="@string/convert_yen"
+            android:textColor="@color/colorText"
             android:textSize="24sp" />
 
         <Button
@@ -49,6 +52,7 @@
             android:background="@drawable/background"
             android:onClick="about"
             android:text="@string/link"
+            android:textColor="@color/colorText"
             android:textSize="24sp" />
 
     </LinearLayout>

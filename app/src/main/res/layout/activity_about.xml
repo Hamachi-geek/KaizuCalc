@@ -4,18 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:background="@color/colorBackground"
     tools:context="com.hmdroid.kaizucalc.AboutActivity">
 
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:background="@color/colorBackground">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
             android:orientation="vertical">
 
             <LinearLayout
@@ -31,6 +33,7 @@
                     android:layout_marginBottom="10dp"
                     android:paddingLeft="10dp"
                     android:text="@string/link"
+                    android:textColor="@color/colorText"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -42,7 +45,8 @@
                     android:background="@drawable/background"
                     android:onClick="atwiki"
                     android:paddingBottom="5dp"
-                    android:text="@string/atwiki" />
+                    android:text="@string/atwiki"
+                    android:textColor="@color/colorText" />
 
                 <Button
                     android:id="@+id/off_zero"
@@ -51,7 +55,8 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/background"
                     android:onClick="off_zero"
-                    android:text="@string/youtube_off_zero" />
+                    android:text="@string/youtube_off_zero"
+                    android:textColor="@color/colorText" />
 
                 <Button
                     android:id="@+id/syamu_youtube"
@@ -60,7 +65,8 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/background"
                     android:onClick="syamu_youtube"
-                    android:text="@string/syamu_new_chanel" />
+                    android:text="@string/syamu_new_chanel"
+                    android:textColor="@color/colorText" />
 
                 <Button
                     android:id="@+id/syamu_twitter"
@@ -68,7 +74,8 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/background"
                     android:onClick="syamu_twitter"
-                    android:text="@string/syamu_new_twitter" />
+                    android:text="@string/syamu_new_twitter"
+                    android:textColor="@color/colorText" />
 
             </LinearLayout>
 
@@ -86,6 +93,7 @@
                     android:layout_marginTop="40dp"
                     android:paddingLeft="10dp"
                     android:text="@string/licences"
+                    android:textColor="@color/colorText"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -96,7 +104,8 @@
                     android:layout_marginTop="10dp"
                     android:background="@drawable/background"
                     android:onClick="android_asset_studio"
-                    android:text="@string/AndroidAssetStudio" />
+                    android:text="@string/AndroidAssetStudio"
+                    android:textColor="@color/colorText" />
 
                 <TextView
                     android:id="@+id/textView12"
@@ -106,7 +115,8 @@
                     android:layout_alignParentLeft="true"
                     android:paddingLeft="10dp"
                     android:paddingTop="5dp"
-                    android:text="@string/RomanNurik" />
+                    android:text="@string/RomanNurik"
+                    android:textColor="@color/colorText" />
 
                 <Button
                     android:id="@+id/button10"
@@ -115,29 +125,32 @@
                     android:layout_marginTop="15dp"
                     android:background="@drawable/background"
                     android:onClick="github"
-                    android:text="@string/GitHub" />
+                    android:text="@string/GitHub"
+                    android:textColor="@color/colorText" />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
                     android:layout_below="@+id/textView11"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
                     android:paddingLeft="10dp"
                     android:paddingTop="5dp"
-                    android:text="Developed by Hamachi (@hamachi_geek)" />
+                    android:text="Developed by Hamachi (@hamachi_geek)"
+                    android:textColor="@color/colorText" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
                     android:layout_below="@+id/textView11"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
                     android:paddingLeft="10dp"
                     android:paddingTop="5dp"
-                    android:text="Edited by Yoshihisa Kaino (@yosh1125hisa)" />
+                    android:text="Edited by Yoshihisa Kaino (@yosh1125hisa)"
+                    android:textColor="@color/colorText" />
 
             </LinearLayout>
 
