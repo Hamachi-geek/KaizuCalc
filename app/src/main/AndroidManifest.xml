@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:exported="true"
             android:name=".SelectActivity"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -24,12 +25,15 @@
                 android:resource="@xml/shortcuts" />
         </activity>
         <activity
+            android:exported="true"
             android:name=".ToKaizukaActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:exported="true"
             android:name=".ToYenActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:exported="true"
             android:name=".AboutActivity"
             android:screenOrientation="portrait" />
     </application>

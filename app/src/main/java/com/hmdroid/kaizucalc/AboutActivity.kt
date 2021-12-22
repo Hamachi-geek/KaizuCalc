@@ -3,7 +3,7 @@ package com.hmdroid.kaizucalc
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View
 
 class AboutActivity : AppCompatActivity() {
@@ -17,18 +17,12 @@ class AboutActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun off_zero(view: View?) {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/Iag55pIKWzI"))
+    fun off_zero_youtube(view: View?) {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/zZCmMY__Rk8"))
         startActivity(intent)
     }
-
-    fun syamu_youtube(view: View?) {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCndPTRRme85svqTEhT14-Iw"))
-        startActivity(intent)
-    }
-
-    fun syamu_twitter(view: View?) {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/syamu_net"))
+    fun off_zero_nicovideo(view: View?) {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.nicovideo.jp/watch/sm29389990"))
         startActivity(intent)
     }
 

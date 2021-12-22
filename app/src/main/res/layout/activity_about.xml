@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -49,32 +49,23 @@
                     android:textColor="@color/colorText" />
 
                 <Button
+                    android:id="@+id/off_zero_youtube"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background"
+                    android:onClick="off_zero_youtube"
+                    android:text="@string/youtube_off_zero_youtube"
+                    android:textColor="@color/colorText" />
+
+                <Button
                     android:id="@+id/off_zero"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/background"
-                    android:onClick="off_zero"
-                    android:text="@string/youtube_off_zero"
-                    android:textColor="@color/colorText" />
-
-                <Button
-                    android:id="@+id/syamu_youtube"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/background"
-                    android:onClick="syamu_youtube"
-                    android:text="@string/syamu_new_chanel"
-                    android:textColor="@color/colorText" />
-
-                <Button
-                    android:id="@+id/syamu_twitter"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/background"
-                    android:onClick="syamu_twitter"
-                    android:text="@string/syamu_new_twitter"
+                    android:onClick="off_zero_nicovideo"
+                    android:text="@string/off_zero_nicovideo"
                     android:textColor="@color/colorText" />
 
             </LinearLayout>
@@ -137,7 +128,7 @@
                     android:layout_alignParentLeft="true"
                     android:paddingLeft="10dp"
                     android:paddingTop="5dp"
-                    android:text="Developed by Hamachi (@hamachi_geek)"
+                    android:text="Developed by Hamachi (@Go2eatnow)"
                     android:textColor="@color/colorText" />
 
                 <TextView
@@ -158,4 +149,4 @@
     </ScrollView>
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
