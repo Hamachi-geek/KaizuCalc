@@ -37,7 +37,9 @@
         android:ems="10"
         android:hint="@string/toYen"
         android:inputType="numberSigned"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHint"/>
 
 </RelativeLayout>
 
