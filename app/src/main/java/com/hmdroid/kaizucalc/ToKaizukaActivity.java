@@ -3,6 +3,8 @@ package com.hmdroid.kaizucalc;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AlertDialog;
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import android.view.KeyEvent;
@@ -41,7 +43,6 @@ public class ToKaizukaActivity extends AppCompatActivity {
                         BigInteger bigInteger = new BigInteger(editText.getText().toString());
                         BigInteger bigInteger35 = new BigInteger("35");
                         double result = bigInteger.multiply(bigInteger35).longValue();
-
                         AlertDialog.Builder alert01 = new AlertDialog.Builder(ToKaizukaActivity.this);
                         alert01.setTitle("警告:");
                         alert01.setMessage(result + "貝塚円");

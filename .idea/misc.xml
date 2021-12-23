@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/drawable-nodpi/background.xml" value="0.3828125" />
+        <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/drawable-nodpi/background_EditTXT.xml" value="0.3828125" />
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_about.xml" value="0.20520833333333333" />
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_select.xml" value="0.20520833333333333" />
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_to_kaizuka.xml" value="0.20520833333333333" />

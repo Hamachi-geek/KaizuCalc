@@ -37,7 +37,6 @@
         android:hint="@string/toKaizuka"
         android:inputType="numberSigned"
         android:textAlignment="center"
-        android:textColor="@color/colorText"
-        android:textColorHint="@color/colorHint" />
-
+        android:textColor="@color/EditTXT"
+        android:textColorHint="@color/colorHint"/>
 </RelativeLayout>
