@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 
 import java.math.BigInteger;
+import java.text.DecimalFormat;
 
 public class ToKaizukaActivity extends AppCompatActivity {
 
@@ -43,9 +44,12 @@ public class ToKaizukaActivity extends AppCompatActivity {
                         BigInteger bigInteger = new BigInteger(editText.getText().toString());
                         BigInteger bigInteger35 = new BigInteger("35");
                         double result = bigInteger.multiply(bigInteger35).longValue();
+                        System.out.println("Double Value: "+ result);
+                        String kaizuka = String.format("%,.0f", result);
+                        System.out.println("Value after Formatting: "+ kaizuka);
                         AlertDialog.Builder alert01 = new AlertDialog.Builder(ToKaizukaActivity.this);
                         alert01.setTitle("警告:");
-                        alert01.setMessage(result + "貝塚円");
+                        alert01.setMessage(kaizuka + "貝塚円");
                         alert01.show();
                     }
 

@@ -43,11 +43,13 @@ public class ToYenActivity extends AppCompatActivity {
                                 BigDecimal(editText.getText().toString());
                         //35を掛け算(少数が計算結果になることがあるためBigDecimal)
                         BigDecimal bigDecimal35 = new BigDecimal("35");
-                        double j = bigDecimal.divide(bigDecimal35, 3, ROUND_HALF_UP).longValue();
-
+                        double result = bigDecimal.divide(bigDecimal35, 3, ROUND_HALF_UP).longValue();
+                        System.out.println("Double Value: "+ result);
+                        String jpy = String.format("%,.0f", result);
+                        System.out.println("Value after Formatting: "+ jpy);
                         AlertDialog.Builder alert01 = new AlertDialog.Builder(ToYenActivity.this);
                         alert01.setTitle("警告:");
-                        alert01.setMessage(j + "円");
+                        alert01.setMessage(jpy + "円");
                         alert01.show();
                     }
 

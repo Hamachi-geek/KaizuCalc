@@ -38,5 +38,5 @@
         android:inputType="numberSigned"
         android:textAlignment="center"
         android:textColor="@color/EditTXT"
-        android:textColorHint="@color/colorHint"/>
+        android:textColorHint="@color/colorHint" />
 </RelativeLayout>
