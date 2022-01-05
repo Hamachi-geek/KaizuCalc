@@ -3,6 +3,8 @@ package com.hmdroid.kaizucalc;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AlertDialog;
+
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import android.view.KeyEvent;
@@ -50,6 +52,16 @@ public class ToYenActivity extends AppCompatActivity {
                         AlertDialog.Builder alert01 = new AlertDialog.Builder(ToYenActivity.this);
                         alert01.setTitle("警告:");
                         alert01.setMessage(jpy + "円");
+                        alert01.setPositiveButton("SHARE", (dialog, which) -> {
+                            Intent share = new Intent();
+                            share.setAction(Intent.ACTION_SEND);
+                            share.putExtra(Intent.EXTRA_TEXT, jpy + "円");
+                            share.setType("text/plain");
+                            Intent shareIntent = Intent.createChooser(share, "Send to...");
+                            startActivity(shareIntent);
+                        });
+                        final AlertDialog alert = alert01.create();
+                        alert01.show();
                         alert01.show();
                     }
 

@@ -5,6 +5,8 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AlertDialog;
 
 import android.annotation.SuppressLint;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import android.view.KeyEvent;
@@ -29,6 +31,7 @@ public class ToKaizukaActivity extends AppCompatActivity {
         Toolbar toolbar=findViewById(R.id.toolbar);
         toolbar.setTitle (R.string.convert_kaizuka);
         setSupportActionBar(toolbar);
+
         //EditText
         editText = findViewById(R.id.editText);
         editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -47,9 +50,20 @@ public class ToKaizukaActivity extends AppCompatActivity {
                         System.out.println("Double Value: "+ result);
                         String kaizuka = String.format("%,.0f", result);
                         System.out.println("Value after Formatting: "+ kaizuka);
+
+                        //Result Dialog
                         AlertDialog.Builder alert01 = new AlertDialog.Builder(ToKaizukaActivity.this);
                         alert01.setTitle("警告:");
                         alert01.setMessage(kaizuka + "貝塚円");
+                        alert01.setPositiveButton("SHARE", (dialog, which) -> {
+                            Intent share = new Intent();
+                            share.setAction(Intent.ACTION_SEND);
+                            share.putExtra(Intent.EXTRA_TEXT, kaizuka + "貝塚円");
+                            share.setType("text/plain");
+                            Intent shareIntent = Intent.createChooser(share, "Send to...");
+                            startActivity(shareIntent);
+                        });
+                        final AlertDialog alert = alert01.create();
                         alert01.show();
                     }
 
