@@ -60,7 +60,7 @@ public class ToKaizukaActivity extends AppCompatActivity {
                             share.setAction(Intent.ACTION_SEND);
                             share.putExtra(Intent.EXTRA_TEXT, kaizuka + "貝塚円");
                             share.setType("text/plain");
-                            Intent shareIntent = Intent.createChooser(share, "Send to...");
+                            Intent shareIntent = Intent.createChooser(share, kaizuka + "貝塚円");
                             startActivity(shareIntent);
                         });
                         final AlertDialog alert = alert01.create();

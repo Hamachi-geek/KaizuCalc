@@ -57,7 +57,7 @@ public class ToYenActivity extends AppCompatActivity {
                             share.setAction(Intent.ACTION_SEND);
                             share.putExtra(Intent.EXTRA_TEXT, jpy + "円");
                             share.setType("text/plain");
-                            Intent shareIntent = Intent.createChooser(share, "Send to...");
+                            Intent shareIntent = Intent.createChooser(share, jpy + "円");
                             startActivity(shareIntent);
                         });
                         final AlertDialog alert = alert01.create();
