@@ -3,6 +3,11 @@
     package="com.hmdroid.kaizucalc">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen"
+        android:required="false" />
+
 
     <application
         android:allowBackup="true"
@@ -12,8 +17,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:exported="true"
-            android:name=".SelectActivity"
-            android:screenOrientation="portrait">
+            android:name=".SelectActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,16 +30,14 @@
         </activity>
         <activity
             android:exported="true"
-            android:name=".ToKaizukaActivity"
-            android:screenOrientation="portrait" />
+            android:name=".ToKaizukaActivity" />
         <activity
             android:exported="true"
-            android:name=".ToYenActivity"
-            android:screenOrientation="portrait" />
+            android:name=".ToYenActivity"/>
         <activity
             android:exported="true"
-            android:name=".AboutActivity"
-            android:screenOrientation="portrait" />
+            android:name=".AboutActivity" />
     </application>
+
 
 </manifest>

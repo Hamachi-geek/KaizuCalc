@@ -9,6 +9,10 @@
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_select.xml" value="0.20520833333333333" />
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_to_kaizuka.xml" value="0.20520833333333333" />
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_to_yen.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/activity_select.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/layout/activity_select_tv.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/activity_to_kaizuka.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/layout/activity_to_yen.xml" value="0.13437217705510388" />
       </map>
     </option>
   </component>
@@ -56,7 +60,7 @@
       </value>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
