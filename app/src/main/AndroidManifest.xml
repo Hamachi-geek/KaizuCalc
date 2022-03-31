@@ -14,13 +14,14 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:banner="@drawable/banner"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:exported="true"
             android:name=".SelectActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
