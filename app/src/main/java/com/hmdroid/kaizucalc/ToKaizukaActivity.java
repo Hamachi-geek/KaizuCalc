@@ -25,12 +25,8 @@ public class ToKaizukaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_to_kaizuka);
-
-        //ToolBar
-        Toolbar toolbar=findViewById(R.id.toolbar);
-        toolbar.setTitle (R.string.convert_kaizuka);
-        setSupportActionBar(toolbar);
+        setTheme(R.style.Theme_AppCompat_DayNight_NoActionBar);
+        setContentView(R.layout.activity_to_yen);
 
         //EditText
         editText = findViewById(R.id.editText);

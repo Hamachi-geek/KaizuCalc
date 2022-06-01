@@ -22,12 +22,8 @@ public class ToYenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Theme_AppCompat_DayNight_NoActionBar);
         setContentView(R.layout.activity_to_yen);
-
-        //ToolBar
-        Toolbar toolbar=findViewById(R.id.toolbar2);
-        toolbar.setTitle (R.string.convert_yen);
-        setSupportActionBar(toolbar);
 
         //EditText
         editText = findViewById(R.id.editText);
@@ -64,8 +60,6 @@ public class ToYenActivity extends AppCompatActivity {
                         alert01.show();
                         alert01.show();
                     }
-
-
                 }
                 return false;
             }

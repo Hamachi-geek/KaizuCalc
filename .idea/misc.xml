@@ -9,10 +9,18 @@
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_select.xml" value="0.20520833333333333" />
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_to_kaizuka.xml" value="0.20520833333333333" />
         <entry key="..\:/Daichi/KaizuCalc/app/src/main/res/layout/activity_to_yen.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/drawable-nodpi/background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-nodpi/ic_splash.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v23/compat_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/launch.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/legacy_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/theme.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.15989739204788372" />
         <entry key="app/src/main/res/layout/activity_select.xml" value="0.13437217705510388" />
         <entry key="app/src/main/res/layout/activity_select_tv.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/activity_to_kaizuka.xml" value="0.13437217705510388" />
         <entry key="app/src/main/res/layout/activity_to_yen.xml" value="0.13437217705510388" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -6,10 +6,10 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View
 
-class AboutActivity : AppCompatActivity() {
+class AboutActivity : AppCompatActivity (R.layout.activity_about) {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_about)
     }
 
     fun atwiki(view: View?) {
