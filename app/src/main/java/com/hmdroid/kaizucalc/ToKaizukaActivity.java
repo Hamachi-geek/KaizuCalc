@@ -5,6 +5,8 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AlertDialog;
 
 import android.annotation.SuppressLint;
+import android.app.ActionBar;
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,15 +20,13 @@ import android.widget.TextView;
 import java.math.BigInteger;
 import java.text.DecimalFormat;
 
-public class ToKaizukaActivity extends AppCompatActivity {
-
+public class ToKaizukaActivity extends Activity {
     EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_AppCompat_DayNight_NoActionBar);
-        setContentView(R.layout.activity_to_yen);
+        setContentView(R.layout.activity_to_kaizuka);
 
         //EditText
         editText = findViewById(R.id.editText);

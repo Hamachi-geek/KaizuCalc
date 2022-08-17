@@ -1,33 +1,35 @@
 package com.hmdroid.kaizucalc;
 
-import androidx.appcompat.app.AppCompatActivity;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.appcompat.app.AlertDialog;
+import static java.math.BigDecimal.ROUND_HALF_UP;
 
+import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.TextView.OnEditorActionListener;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import java.math.BigDecimal;
 
-import static java.math.BigDecimal.ROUND_HALF_UP;
-
-
-public class ToYenActivity extends AppCompatActivity {
+public class ToYenActivity extends Activity {
     EditText editText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_AppCompat_DayNight_NoActionBar);
         setContentView(R.layout.activity_to_yen);
 
         //EditText
         editText = findViewById(R.id.editText);
-        editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+        editText.setOnEditorActionListener(new OnEditorActionListener() {
 
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
@@ -40,7 +42,8 @@ public class ToYenActivity extends AppCompatActivity {
                         BigDecimal bigDecimal = new
                                 BigDecimal(editText.getText().toString());
                         //35を掛け算(少数が計算結果になることがあるためBigDecimal)
-                        BigDecimal bigDecimal35 = new BigDecimal("35");
+                        BigDecimal bigDecimal35;
+                        bigDecimal35 = new BigDecimal("35");
                         double result = bigDecimal.divide(bigDecimal35, 3, ROUND_HALF_UP).longValue();
                         System.out.println("Double Value: "+ result);
                         String jpy = String.format("%,.0f", result);
@@ -58,10 +61,9 @@ public class ToYenActivity extends AppCompatActivity {
                         });
                         final AlertDialog alert = alert01.create();
                         alert01.show();
-                        alert01.show();
                     }
                 }
-                return false;
+                return true;
             }
         });
 

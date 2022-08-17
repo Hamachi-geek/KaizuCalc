@@ -1,16 +1,21 @@
 package com.hmdroid.kaizucalc
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View
+import androidx.core.content.ContextCompat.startActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
-class SelectActivity : AppCompatActivity(R.layout.activity_select) {
+class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        installSplashScreen()
-        setTheme(R.style.Theme_AppCompat_Light_NoActionBar)
+        // Handle the splash screen transition.
+        val splashScreen = installSplashScreen()
+
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_select)
+
     }
 
     fun toKaizuka(view: View?) {
