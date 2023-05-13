@@ -38,24 +38,24 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:id="@+id/atwiki"
+                    android:id="@+id/twitter_syamu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/background"
-                    android:onClick="atwiki"
+                    android:onClick="twitter_syamu"
                     android:paddingBottom="5dp"
-                    android:text="@string/atwiki"
+                    android:text="@string/twitter_syamu"
                     android:textColor="@color/colorText" />
 
                 <Button
-                    android:id="@+id/off_zero_youtube"
+                    android:id="@+id/instagram_syamu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/background"
-                    android:onClick="off_zero_youtube"
-                    android:text="@string/youtube_off_zero_youtube"
+                    android:onClick="instagram_syamu"
+                    android:text="@string/instagram_syamu"
                     android:textColor="@color/colorText" />
 
                 <Button
@@ -64,8 +64,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/background"
-                    android:onClick="off_zero_nicovideo"
-                    android:text="@string/off_zero_nicovideo"
+                    android:onClick="nicovideo_syamu"
+                    android:text="@string/nicovideo_syamu"
                     android:textColor="@color/colorText" />
 
             </LinearLayout>
