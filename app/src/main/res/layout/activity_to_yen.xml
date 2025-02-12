@@ -16,7 +16,6 @@
         app:title="@string/convert_yen"
         android:elevation="4dp"
         android:minHeight="64dp"
-        app:titleTextAppearance="@style/toolbartheme"
         app:titleTextColor="@color/colorText" />
 
     <FrameLayout
