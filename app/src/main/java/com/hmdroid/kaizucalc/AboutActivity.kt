@@ -13,17 +13,27 @@ class AboutActivity : Activity() {
         setContentView(R.layout.activity_about)
     }
 
-    fun twitter_syamu(view: View?) {
+    fun x(view: View?) {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/syamu_tweet"))
         startActivity(intent)
     }
 
-    fun instagram_syamu(view: View?) {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/syamu_photo/"))
+    fun tiktok(view: View?) {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tiktok.com/@syamu_tweet"))
         startActivity(intent)
     }
-    fun nicovideo_syamu(view: View?) {
+    fun nicovideo(view: View?) {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.nicovideo.jp/user/126799414"))
+        startActivity(intent)
+    }
+
+    fun youtube(view: View?) {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/@user-syamu_YouTube"))
+        startActivity(intent)
+    }
+
+    fun privacy(view: View?) {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://hamachi.osaka/posts/PrivacyPolicy_KaizuCalc/"))
         startActivity(intent)
     }
 

@@ -2,10 +2,10 @@
     <string name="app_name">KaizuCalc</string>
 
     <string name="link">リンク集</string>
-    <string name="syamu_new_chanel">Syamu(Youtube)</string>
-    <string name="twitter_syamu">Syamu(Twitter)</string>
-    <string name="instagram_syamu">Syamu(Instagram)</string>
-    <string name="nicovideo_syamu">Syamu(NicoNico)</string>
+    <string name="youtube">YouTube</string>
+    <string name="x">X</string>
+    <string name="tiktok">TikTok</string>
+    <string name="nicovideo">ニコニコ動画</string>
 
     <string name="toKaizuka">1貝塚円 ＝ 35日本円</string>
     <string name="toYen">35日本円 ＝ 1貝塚円</string>
@@ -16,6 +16,8 @@
     <string name="githubUrl">https://github.com/HamaDroid/KaizuCalc/</string>
 
     <string name="licences">ライセンス</string>
+    <string name="PrivacyPolicy">プライバシーポリシー</string>
+
     <string name="AndroidAssetStudio">Android Asset Studio</string>
     <string name="RomanNurik">By Roman Nurik</string>
     <string name="GitHub">GitHub Repository</string>
