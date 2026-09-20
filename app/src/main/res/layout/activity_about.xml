@@ -2,11 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
     tools:context="com.hmdroid.kaizucalc.AboutActivity">
-
 
     <ScrollView
         android:layout_width="match_parent"
@@ -44,6 +44,7 @@
                     android:layout_margin="15dp"
                     android:layout_marginBottom="23dp"
                     android:background="@drawable/background"
+                    app:backgroundTint="@null"
                     android:onClick="x"
                     android:paddingBottom="5dp"
                     android:text="@string/x"
@@ -56,6 +57,7 @@
                     android:layout_margin="15dp"
                     android:layout_marginBottom="23dp"
                     android:background="@drawable/background"
+                    app:backgroundTint="@null"
                     android:onClick="tiktok"
                     android:text="@string/tiktok"
                     android:textColor="@color/colorText" />
@@ -67,6 +69,7 @@
                     android:layout_margin="15dp"
                     android:layout_marginBottom="23dp"
                     android:background="@drawable/background"
+                    app:backgroundTint="@null"
                     android:onClick="nicovideo"
                     android:text="@string/nicovideo"
                     android:textColor="@color/colorText" />
@@ -78,6 +81,7 @@
                     android:layout_margin="15dp"
                     android:layout_marginBottom="23dp"
                     android:background="@drawable/background"
+                    app:backgroundTint="@null"
                     android:onClick="youtube"
                     android:text="@string/youtube"
                     android:textColor="@color/colorText" />
@@ -101,6 +105,7 @@
                     android:textColor="@color/colorText"
                     android:textSize="24sp"
                     android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/privacy"
                     android:layout_width="match_parent"
@@ -108,6 +113,7 @@
                     android:layout_margin="15dp"
                     android:layout_marginBottom="23dp"
                     android:background="@drawable/background"
+                    app:backgroundTint="@null"
                     android:onClick="privacy"
                     android:text="@string/PrivacyPolicy"
                     android:textColor="@color/colorText" />
@@ -119,6 +125,7 @@
                     android:layout_margin="15dp"
                     android:layout_marginBottom="23dp"
                     android:background="@drawable/background"
+                    app:backgroundTint="@null"
                     android:onClick="android_asset_studio"
                     android:text="@string/AndroidAssetStudio"
                     android:textColor="@color/colorText" />
@@ -141,6 +148,7 @@
                     android:layout_margin="15dp"
                     android:layout_marginBottom="23dp"
                     android:background="@drawable/background"
+                    app:backgroundTint="@null"
                     android:onClick="github"
                     android:text="@string/GitHub"
                     android:textColor="@color/colorText" />
@@ -173,6 +181,5 @@
 
         </LinearLayout>
     </ScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

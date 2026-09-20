@@ -1,16 +1,26 @@
 package com.hmdroid.kaizucalc
 
-import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
-class AboutActivity : Activity() {
+class AboutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
     }
 
     fun x(view: View?) {
@@ -22,6 +32,7 @@ class AboutActivity : Activity() {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tiktok.com/@syamu_tweet"))
         startActivity(intent)
     }
+
     fun nicovideo(view: View?) {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.nicovideo.jp/user/126799414"))
         startActivity(intent)
